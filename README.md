@@ -9,11 +9,11 @@ This project implements a Retrieval-Augmented Generation (RAG) pipeline using Si
 ## Requirements
 - Python 3.8 or higher
 - Packages:
-- transformers
-- sentence-transformers
-- numpy
-- tqdm
-- torch
+ - transformers
+ - sentence-transformers
+ - numpy
+ - tqdm
+ - torch
 
 ## Installation
 - Clone the repository
