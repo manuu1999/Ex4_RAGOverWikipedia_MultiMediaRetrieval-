@@ -16,8 +16,4 @@ def encode_paragraphs(paragraphs, model_name='all-MiniLM-L6-v2', batch_size=1000
         encoded_paragraphs.extend(batch)
         print(f"Encoded batch {i + 1}/{(len(paragraphs) + batch_size - 1) // batch_size}")
 
-    # Debug: Print first 3 paragraphs to ensure encoding worked
-    for paragraph in encoded_paragraphs[:3]:
-        print("Encoded Paragraph Debug:", paragraph.get('sentences', []))
-
     return encoded_paragraphs, model
