@@ -21,7 +21,7 @@ This project implements a Retrieval-Augmented Generation (RAG) pipeline using Si
 
 ## Usage
 - Load Data: The program uses the Simple English Wikipedia dataset in .jsonl.gz format. Ensure the dataset file is located in the data directory.
-- Download the dataset if not available: http://sbert.net/datasets/simplewiki-2020-11-01.jsonl.gz -P data/
+- Download the dataset if not available: http://sbert.net/datasets/simplewiki-2020-11-01.jsonl.gz
 - Run the Main Program: scr/main.py
 - The system will load the dataset, perform semantic search, expand contexts, and generate responses based on the query.
 - Note: The time required to process the entire dataset depends on your machine's performance. Encoding all Wikipedia paragraphs may take approximately 4–5 hours. If you would like to test the program quickly, you can reduce the dataset to a smaller sample by adjusting the subset_size parameter in the load_data function within the main.py file.
