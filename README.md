@@ -1,5 +1,4 @@
-# Ex4_RAGOverWikipedia_MultiMediaRetrieval-
-# RAG Over Wikipedia - Multimedia Retrieval
+# Ex4: RAG Over Wikipedia - Multimedia Retrieval
 This project implements a Retrieval-Augmented Generation (RAG) pipeline using Simple English Wikipedia. The system retrieves relevant information based on user queries and generates responses using a Local Language Model (LLM).
 
 ## Features
