@@ -8,12 +8,12 @@ This project implements a Retrieval-Augmented Generation (RAG) pipeline using Si
 - Response Generation: Generates human-like answers to user queries using a lightweight LLM (Hugging Face's distilgpt2).
 ## Requirements
 - Python 3.8 or higher
-- Packages:
- - transformers
- - sentence-transformers
- - numpy
- - tqdm
- - torch
+  - Packages:
+    - transformers
+    - sentence-transformers
+    - numpy
+    - tqdm
+    - torch
 
 ## Installation
 - Clone the repository
